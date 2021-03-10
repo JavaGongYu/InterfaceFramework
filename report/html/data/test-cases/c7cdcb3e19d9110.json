@@ -1,0 +1,101 @@
+{
+  "uid" : "c7cdcb3e19d9110",
+  "name" : "test_getProvince[47-CXCNSPBH_07-查询池内商品编号-页码错误-/product/getSkuByPage-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\"pageNum\":\"SP001\",\n\"pageNo\":\"Hello\"}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+  "fullName" : "test_case.Test_Case.Testaddapi#test_getProvince",
+  "historyId" : "15a6ec7a5e5cdecb76b6cab9eef9138d",
+  "time" : {
+    "start" : 1615275536635,
+    "stop" : 1615275536802,
+    "duration" : 167
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "接口测试"
+  }, {
+    "name" : "story",
+    "value" : "运行测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "Test_Case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testaddapi"
+  }, {
+    "name" : "host",
+    "value" : "MSIComputer"
+  }, {
+    "name" : "thread",
+    "value" : "11964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.Test_Case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "actualdata",
+    "value" : "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'"
+  }, {
+    "name" : "actualresults",
+    "value" : "''"
+  }, {
+    "name" : "caseid",
+    "value" : "'CXCNSPBH_07'"
+  }, {
+    "name" : "casename",
+    "value" : "'查询池内商品编号'"
+  }, {
+    "name" : "casenote",
+    "value" : "'页码错误'"
+  }, {
+    "name" : "headers",
+    "value" : "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'"
+  }, {
+    "name" : "id",
+    "value" : "'47'"
+  }, {
+    "name" : "infodata",
+    "value" : "'{\"pageNum\":\"SP001\",\n\"pageNo\":\"Hello\"}'"
+  }, {
+    "name" : "infodatanote",
+    "value" : "'请求发送失败返回错误信息'"
+  }, {
+    "name" : "method",
+    "value" : "'POST'"
+  }, {
+    "name" : "resultdata",
+    "value" : "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'"
+  }, {
+    "name" : "url",
+    "value" : "'/product/getSkuByPage'"
+  }, {
+    "name" : "yn",
+    "value" : "'Yes'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c7cdcb3e19d9110.json",
+  "parameterValues" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'CXCNSPBH_07'", "'查询池内商品编号'", "'页码错误'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'47'", "'{\"pageNum\":\"SP001\",\n\"pageNo\":\"Hello\"}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/product/getSkuByPage'", "'Yes'" ]
+}

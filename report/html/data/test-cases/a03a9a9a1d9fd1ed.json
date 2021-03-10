@@ -1,0 +1,101 @@
+{
+  "uid" : "a03a9a9a1d9fd1ed",
+  "name" : "test_getProvince[38-CXSPCBH_01-查询商品池编号-发送正确请求-/product/getPageNum-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}--请求发送成功返回正确结果-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+  "fullName" : "test_case.Test_Case.Testaddapi#test_getProvince",
+  "historyId" : "c078f646126e370c28a7ab5f23aeb886",
+  "time" : {
+    "start" : 1615275535362,
+    "stop" : 1615275535455,
+    "duration" : 93
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "接口测试"
+  }, {
+    "name" : "story",
+    "value" : "运行测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "Test_Case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testaddapi"
+  }, {
+    "name" : "host",
+    "value" : "MSIComputer"
+  }, {
+    "name" : "thread",
+    "value" : "11964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.Test_Case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "actualdata",
+    "value" : "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'"
+  }, {
+    "name" : "actualresults",
+    "value" : "''"
+  }, {
+    "name" : "caseid",
+    "value" : "'CXSPCBH_01'"
+  }, {
+    "name" : "casename",
+    "value" : "'查询商品池编号'"
+  }, {
+    "name" : "casenote",
+    "value" : "'发送正确请求'"
+  }, {
+    "name" : "headers",
+    "value" : "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'"
+  }, {
+    "name" : "id",
+    "value" : "'38'"
+  }, {
+    "name" : "infodata",
+    "value" : "''"
+  }, {
+    "name" : "infodatanote",
+    "value" : "'请求发送成功返回正确结果'"
+  }, {
+    "name" : "method",
+    "value" : "'POST'"
+  }, {
+    "name" : "resultdata",
+    "value" : "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'"
+  }, {
+    "name" : "url",
+    "value" : "'/product/getPageNum'"
+  }, {
+    "name" : "yn",
+    "value" : "'Yes'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a03a9a9a1d9fd1ed.json",
+  "parameterValues" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'CXSPCBH_01'", "'查询商品池编号'", "'发送正确请求'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'38'", "''", "'请求发送成功返回正确结果'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/product/getPageNum'", "'Yes'" ]
+}

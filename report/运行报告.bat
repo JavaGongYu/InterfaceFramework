@@ -1,0 +1,3 @@
+@echo off
+echo 【运行测试报告】.....
+allure serve xml

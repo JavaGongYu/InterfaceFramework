@@ -1,0 +1,620 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_case.Test_Case",
+    "children" : [ {
+      "name" : "test_getProvince[1-YJDL_01-获取一级地址-发送正确请求-/area/getProvince-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}--请求发送成功返回正确结果-{\"success\":true,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2008\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "a5b1fbb66fd2f646",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "failed",
+      "time" : {
+        "start" : 1615275530124,
+        "stop" : 1615275530260,
+        "duration" : 136
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'YJDL_01'", "'获取一级地址'", "'发送正确请求'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'1'", "''", "'请求发送成功返回正确结果'", "'POST'", "'{\"success\":true,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2008\"}'", "'/area/getProvince'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[2-YJDL_02-获取一级地址-token为空-/area/getProvince-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}--请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "cf164f36543bd6fc",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275530345,
+        "stop" : 1615275530462,
+        "duration" : 117
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'YJDL_02'", "'获取一级地址'", "'token为空'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'2'", "''", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/getProvince'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[3-YJDL_03-获取一级地址-token过期-/area/getProvince-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}--请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "676d1fddf255683f",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275530473,
+        "stop" : 1615275530617,
+        "duration" : 144
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'YJDL_03'", "'获取一级地址'", "'token过期'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'3'", "''", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/getProvince'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[4-EJDL_01-获取二级地址-发送正确请求-/area/getCity-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\"id\":\"13\"}-请求发送成功返回正确结果-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "7d97105f217b9d19",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275530629,
+        "stop" : 1615275530773,
+        "duration" : 144
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'EJDL_01'", "'获取二级地址'", "'发送正确请求'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'4'", "'{\"id\":\"13\"}'", "'请求发送成功返回正确结果'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/getCity'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[5-EJDL_02-获取二级地址-token为空-/area/getCity-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\"id\":\"13\"}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "41be4ccefd90bc24",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275530783,
+        "stop" : 1615275530871,
+        "duration" : 88
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'EJDL_02'", "'获取二级地址'", "'token为空'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'5'", "'{\"id\":\"13\"}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/getCity'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[6-EJDL_03-获取二级地址-token过期-/area/getCity-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\"id\":\"13\"}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "682a39679bd675b8",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275530882,
+        "stop" : 1615275531004,
+        "duration" : 122
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'EJDL_03'", "'获取二级地址'", "'token过期'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'6'", "'{\"id\":\"13\"}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/getCity'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[7-EJDL_04-获取二级地址-ID为空-/area/getCity-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\"id\":\"\"}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "47b107ba32ab907e",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275531014,
+        "stop" : 1615275531108,
+        "duration" : 94
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'EJDL_04'", "'获取二级地址'", "'ID为空'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'7'", "'{\"id\":\"\"}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/getCity'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[8-EJDL_05-获取二级地址-ID不存在-/area/getCity-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\"id\":\"99\"}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "7c9e4b76d42019b7",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275531119,
+        "stop" : 1615275531264,
+        "duration" : 145
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'EJDL_05'", "'获取二级地址'", "'ID不存在'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'8'", "'{\"id\":\"99\"}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/getCity'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[9-EJDL_06-获取二级地址-ID格式不正确-/area/getCity-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\"id\":\"Hello\"}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "ed06a6f0fd26279e",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275531275,
+        "stop" : 1615275531383,
+        "duration" : 108
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'EJDL_06'", "'获取二级地址'", "'ID格式不正确'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'9'", "'{\"id\":\"Hello\"}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/getCity'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[10-SJDL_01-获取三级地址-发送正确请求-/area/getCounty-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\"id\":\"13\"}-请求发送成功返回正确结果-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "f33219e0ee5a10a",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275531398,
+        "stop" : 1615275531577,
+        "duration" : 179
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'SJDL_01'", "'获取三级地址'", "'发送正确请求'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'10'", "'{\"id\":\"13\"}'", "'请求发送成功返回正确结果'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/getCounty'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[11-SJDL_02-获取三级地址-token为空-/area/getCounty-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\"id\":\"13\"}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "70e77a4f467bfab6",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275531590,
+        "stop" : 1615275531691,
+        "duration" : 101
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'SJDL_02'", "'获取三级地址'", "'token为空'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'11'", "'{\"id\":\"13\"}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/getCounty'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[12-SJDL_03-获取三级地址-token过期-/area/getCounty-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\"id\":\"13\"}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "2bf3694639b6b6ef",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275531704,
+        "stop" : 1615275531844,
+        "duration" : 140
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'SJDL_03'", "'获取三级地址'", "'token过期'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'12'", "'{\"id\":\"13\"}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/getCounty'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[13-SJDL_04-获取三级地址-ID为空-/area/getCounty-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\"id\":\"\"}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "9c750f9594944fd7",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275531856,
+        "stop" : 1615275531998,
+        "duration" : 142
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'SJDL_04'", "'获取三级地址'", "'ID为空'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'13'", "'{\"id\":\"\"}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/getCounty'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[14-SJDL_05-获取三级地址-ID不存在-/area/getCounty-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\"id\":\"99\"}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "af5ac03287e36f69",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275532011,
+        "stop" : 1615275532162,
+        "duration" : 151
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'SJDL_05'", "'获取三级地址'", "'ID不存在'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'14'", "'{\"id\":\"99\"}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/getCounty'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[15-SJDL_06-获取三级地址-ID格式不正确-/area/getCounty-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\"id\":\"你好\"}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "add3fa3c99bf5a0c",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275532173,
+        "stop" : 1615275532267,
+        "duration" : 94
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'SJDL_06'", "'获取三级地址'", "'ID格式不正确'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'15'", "'{\"id\":\"你好\"}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/getCounty'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[16-SiJDL_01-获取四级地址-发送正确请求-/area/getTown-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\"id\":\"13\"}-请求发送成功返回正确结果-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "533b97af916596b4",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275532278,
+        "stop" : 1615275532399,
+        "duration" : 121
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'SiJDL_01'", "'获取四级地址'", "'发送正确请求'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'16'", "'{\"id\":\"13\"}'", "'请求发送成功返回正确结果'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/getTown'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[17-SiJDL_02-获取四级地址-token为空-/area/getTown-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\"id\":\"13\"}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "c00fcf3473fd27ed",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275532409,
+        "stop" : 1615275532554,
+        "duration" : 145
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'SiJDL_02'", "'获取四级地址'", "'token为空'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'17'", "'{\"id\":\"13\"}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/getTown'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[18-SiJDL_03-获取四级地址-token过期-/area/getTown-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\"id\":\"13\"}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "27cf515d301806fc",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275532566,
+        "stop" : 1615275532710,
+        "duration" : 144
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'SiJDL_03'", "'获取四级地址'", "'token过期'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'18'", "'{\"id\":\"13\"}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/getTown'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[19-SiJDL_04-获取四级地址-ID为空-/area/getTown-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\"id\":\"\"}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2008\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "d7495cee3d6897d0",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275532720,
+        "stop" : 1615275532894,
+        "duration" : 174
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'SiJDL_04'", "'获取四级地址'", "'ID为空'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'19'", "'{\"id\":\"\"}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2008\"}'", "'/area/getTown'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[20-SiJDL_05-获取四级地址-ID不存在-/area/getTown-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\"id\":\"99\"}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2009\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "aa7f67a4f313ce6",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275532904,
+        "stop" : 1615275533039,
+        "duration" : 135
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'SiJDL_05'", "'获取四级地址'", "'ID不存在'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'20'", "'{\"id\":\"99\"}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2009\"}'", "'/area/getTown'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[21-SiJDL_06-获取四级地址-ID格式不正确-/area/getTown-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\"id\":\"Hello\"}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "5f3d09181598488e",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275533050,
+        "stop" : 1615275533168,
+        "duration" : 118
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'SiJDL_06'", "'获取四级地址'", "'ID格式不正确'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'21'", "'{\"id\":\"Hello\"}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/getTown'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[22-YZDL_01-验证地址有效性-发送正确请求-/area/checkArea-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\n\"provinceId\":13,\n\"cityId\":1000,\n\"countyId\":46666,\n\"townId\":57809\n}-请求发送成功返回正确结果-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "95ef81fb84af8185",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275533179,
+        "stop" : 1615275533273,
+        "duration" : 94
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'YZDL_01'", "'验证地址有效性'", "'发送正确请求'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'22'", "'{\n\"provinceId\":13,\n\"cityId\":1000,\n\"countyId\":46666,\n\"townId\":57809\n}'", "'请求发送成功返回正确结果'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/checkArea'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[23-YZDL_02-验证地址有效性-token为空-/area/checkArea-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\n\"provinceId\":13,\n\"cityId\":1000,\n\"countyId\":46666,\n\"townId\":57809\n}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "4983c4858b1815c5",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275533284,
+        "stop" : 1615275533429,
+        "duration" : 145
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'YZDL_02'", "'验证地址有效性'", "'token为空'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'23'", "'{\n\"provinceId\":13,\n\"cityId\":1000,\n\"countyId\":46666,\n\"townId\":57809\n}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/checkArea'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[24-YZDL_03-验证地址有效性-token过期-/area/checkArea-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\n\"provinceId\":13,\n\"cityId\":1000,\n\"countyId\":46666,\n\"townId\":57809\n}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "b6470eb04509d272",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275533440,
+        "stop" : 1615275533545,
+        "duration" : 105
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'YZDL_03'", "'验证地址有效性'", "'token过期'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'24'", "'{\n\"provinceId\":13,\n\"cityId\":1000,\n\"countyId\":46666,\n\"townId\":57809\n}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/checkArea'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[25-YZDL_04-验证地址有效性-一级ID不存在-/area/checkArea-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\n\"provinceId\":1300,\n\"cityId\":1000,\n\"countyId\":46666,\n\"townId\":57809\n}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2009\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "6278dbc028febec1",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275533555,
+        "stop" : 1615275533698,
+        "duration" : 143
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'YZDL_04'", "'验证地址有效性'", "'一级ID不存在'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'25'", "'{\n\"provinceId\":1300,\n\"cityId\":1000,\n\"countyId\":46666,\n\"townId\":57809\n}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2009\"}'", "'/area/checkArea'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[26-YZDL_05-验证地址有效性-二级ID不存在-/area/checkArea-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\n\"provinceId\":13,\n\"cityId\":1000,\n\"countyId\":46666,\n\"townId\":57809\n}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "cc73d8931f14d523",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275533708,
+        "stop" : 1615275533816,
+        "duration" : 108
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'YZDL_05'", "'验证地址有效性'", "'二级ID不存在'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'26'", "'{\n\"provinceId\":13,\n\"cityId\":1000,\n\"countyId\":46666,\n\"townId\":57809\n}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/checkArea'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[27-YZDL_06-验证地址有效性-三级ID不存在-/area/checkArea-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\n\"provinceId\":13,\n\"cityId\":1000,\n\"countyId\":4006666,\n\"townId\":57809\n}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "80b8c2db1acedf99",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275533826,
+        "stop" : 1615275533972,
+        "duration" : 146
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'YZDL_06'", "'验证地址有效性'", "'三级ID不存在'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'27'", "'{\n\"provinceId\":13,\n\"cityId\":1000,\n\"countyId\":4006666,\n\"townId\":57809\n}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/checkArea'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[28-YZDL_07-验证地址有效性-四级ID不存在-/area/checkArea-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\n\"provinceId\":13,\n\"cityId\":1000,\n\"countyId\":46666,\n\"townId\":5007809\n}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "9f7a5bac20f471fc",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275533983,
+        "stop" : 1615275534094,
+        "duration" : 111
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'YZDL_07'", "'验证地址有效性'", "'四级ID不存在'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'28'", "'{\n\"provinceId\":13,\n\"cityId\":1000,\n\"countyId\":46666,\n\"townId\":5007809\n}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/checkArea'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[29-YZDL_08-验证地址有效性-一级ID格式不正确-/area/checkArea-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\n\"provinceId\":99999,\n\"cityId\":1000,\n\"countyId\":46666,\n\"townId\":57809\n}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2009\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "4e3aa14210317cb",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275534105,
+        "stop" : 1615275534231,
+        "duration" : 126
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'YZDL_08'", "'验证地址有效性'", "'一级ID格式不正确'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'29'", "'{\n\"provinceId\":99999,\n\"cityId\":1000,\n\"countyId\":46666,\n\"townId\":57809\n}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2009\"}'", "'/area/checkArea'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[30-YZDL_09-验证地址有效性-二级ID格式不正确-/area/checkArea-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\n\"provinceId\":13,\n\"cityId\":99999,\n\"countyId\":46666,\n\"townId\":57809\n}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "e0c65589b3ed8aad",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275534241,
+        "stop" : 1615275534399,
+        "duration" : 158
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'YZDL_09'", "'验证地址有效性'", "'二级ID格式不正确'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'30'", "'{\n\"provinceId\":13,\n\"cityId\":99999,\n\"countyId\":46666,\n\"townId\":57809\n}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/checkArea'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[31-YZDL_10-验证地址有效性-三级ID格式不正确-/area/checkArea-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\n\"provinceId\":13,\n\"cityId\":1000,\n\"countyId\":99999,\n\"townId\":57809\n}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "f92b3339b9faafc3",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275534410,
+        "stop" : 1615275534529,
+        "duration" : 119
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'YZDL_10'", "'验证地址有效性'", "'三级ID格式不正确'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'31'", "'{\n\"provinceId\":13,\n\"cityId\":1000,\n\"countyId\":99999,\n\"townId\":57809\n}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/checkArea'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[32-YZDL_11-验证地址有效性-四级ID格式不正确-/area/checkArea-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\n\"provinceId\":13,\n\"cityId\":1000,\n\"countyId\":46666,\n\"townId\":99999\n}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "32c74b54f3e48b70",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275534540,
+        "stop" : 1615275534633,
+        "duration" : 93
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'YZDL_11'", "'验证地址有效性'", "'四级ID格式不正确'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'32'", "'{\n\"provinceId\":13,\n\"cityId\":1000,\n\"countyId\":46666,\n\"townId\":99999\n}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/checkArea'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[33-YZDL_01-验证地址有效性-发送正确请求-/area/checkArea-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\n\"address\":\"北京市大兴区亦庄经济开发区经海路5号\"\n}-请求发送成功返回正确结果-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "5f0dc62b2a69bbe0",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275534644,
+        "stop" : 1615275534786,
+        "duration" : 142
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'YZDL_01'", "'验证地址有效性'", "'发送正确请求'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'33'", "'{\n\"address\":\"北京市大兴区亦庄经济开发区经海路5号\"\n}'", "'请求发送成功返回正确结果'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/checkArea'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[34-YZDL_02-验证地址有效性-token为空-/area/checkArea-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\n\"address\":\"北京市大兴区亦庄经济开发区经海路5号\"\n}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "4af162ac4ac432ec",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275534797,
+        "stop" : 1615275534937,
+        "duration" : 140
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'YZDL_02'", "'验证地址有效性'", "'token为空'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'34'", "'{\n\"address\":\"北京市大兴区亦庄经济开发区经海路5号\"\n}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/checkArea'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[35-YZDL_03-验证地址有效性-token过期-/area/checkArea-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\n\"address\":\"北京市大兴区亦庄经济开发区经海路5号\"\n}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "75ee59827ee1ef3",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275534949,
+        "stop" : 1615275535045,
+        "duration" : 96
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'YZDL_03'", "'验证地址有效性'", "'token过期'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'35'", "'{\n\"address\":\"北京市大兴区亦庄经济开发区经海路5号\"\n}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/checkArea'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[36-YZDL_04-验证地址有效性-地址为空-/area/checkArea-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\n\"address\":\"\"\n}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "9e9962a17d579b1e",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275535055,
+        "stop" : 1615275535174,
+        "duration" : 119
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'YZDL_04'", "'验证地址有效性'", "'地址为空'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'36'", "'{\n\"address\":\"\"\n}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/checkArea'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[37-YZDL_05-验证地址有效性-地址不正确-/area/checkArea-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\n\"address\":\"Welcome To Beijing\"\n}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "9dac44f66146bcd1",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275535184,
+        "stop" : 1615275535351,
+        "duration" : 167
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'YZDL_05'", "'验证地址有效性'", "'地址不正确'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'37'", "'{\n\"address\":\"Welcome To Beijing\"\n}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/area/checkArea'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[38-CXSPCBH_01-查询商品池编号-发送正确请求-/product/getPageNum-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}--请求发送成功返回正确结果-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "a03a9a9a1d9fd1ed",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275535362,
+        "stop" : 1615275535455,
+        "duration" : 93
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'CXSPCBH_01'", "'查询商品池编号'", "'发送正确请求'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'38'", "''", "'请求发送成功返回正确结果'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/product/getPageNum'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[39-CXSPCBH_02-查询商品池编号-token为空-/product/getPageNum-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}--请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "371d02fa8b298c38",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275535464,
+        "stop" : 1615275535559,
+        "duration" : 95
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'CXSPCBH_02'", "'查询商品池编号'", "'token为空'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'39'", "''", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/product/getPageNum'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[40-CXSPCBH_03-查询商品池编号-token过期-/product/getPageNum-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}--请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "c6f87cea1442c2bd",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275535572,
+        "stop" : 1615275535732,
+        "duration" : 160
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'CXSPCBH_03'", "'查询商品池编号'", "'token过期'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'40'", "''", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/product/getPageNum'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[41-CXCNSPBH_01-查询池内商品编号-发送正确请求-/product/getSkuByPage-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\"pageNum\":\"SP001\",\n\"pageNo\":1}-请求发送成功返回正确结果-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "598ee86b1b1ca051",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275535743,
+        "stop" : 1615275535840,
+        "duration" : 97
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'CXCNSPBH_01'", "'查询池内商品编号'", "'发送正确请求'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'41'", "'{\"pageNum\":\"SP001\",\n\"pageNo\":1}'", "'请求发送成功返回正确结果'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/product/getSkuByPage'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[42-CXCNSPBH_02-查询池内商品编号-token为空-/product/getSkuByPage-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\"pageNum\":\"SP001\",\n\"pageNo\":1}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "3e56a33335491c01",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275535851,
+        "stop" : 1615275535969,
+        "duration" : 118
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'CXCNSPBH_02'", "'查询池内商品编号'", "'token为空'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'42'", "'{\"pageNum\":\"SP001\",\n\"pageNo\":1}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/product/getSkuByPage'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[43-CXCNSPBH_03-查询池内商品编号-token过期-/product/getSkuByPage-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\"pageNum\":\"SP001\",\n\"pageNo\":1}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "5be9e5fb71cff9a0",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275535980,
+        "stop" : 1615275536150,
+        "duration" : 170
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'CXCNSPBH_03'", "'查询池内商品编号'", "'token过期'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'43'", "'{\"pageNum\":\"SP001\",\n\"pageNo\":1}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/product/getSkuByPage'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[44-CXCNSPBH_04-查询池内商品编号-商品池编码为空-/product/getSkuByPage-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\"pageNum\":\"\",\n\"pageNo\":1}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "338331ab8db48076",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275536161,
+        "stop" : 1615275536327,
+        "duration" : 166
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'CXCNSPBH_04'", "'查询池内商品编号'", "'商品池编码为空'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'44'", "'{\"pageNum\":\"\",\n\"pageNo\":1}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/product/getSkuByPage'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[45-CXCNSPBH_05-查询池内商品编号-商品池编码错误-/product/getSkuByPage-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\"pageNum\":\"Hello\",\n\"pageNo\":1}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "ae21f60fad88cf8f",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275536338,
+        "stop" : 1615275536484,
+        "duration" : 146
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'CXCNSPBH_05'", "'查询池内商品编号'", "'商品池编码错误'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'45'", "'{\"pageNum\":\"Hello\",\n\"pageNo\":1}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/product/getSkuByPage'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[46-CXCNSPBH_06-查询池内商品编号-页码为空-/product/getSkuByPage-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\"pageNum\":\"SP001\",\n\"pageNo\":\"\"}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "6a0c299e9cf526cf",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275536494,
+        "stop" : 1615275536625,
+        "duration" : 131
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'CXCNSPBH_06'", "'查询池内商品编号'", "'页码为空'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'46'", "'{\"pageNum\":\"SP001\",\n\"pageNo\":\"\"}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/product/getSkuByPage'", "'Yes'" ]
+    }, {
+      "name" : "test_getProvince[47-CXCNSPBH_07-查询池内商品编号-页码错误-/product/getSkuByPage-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}-{\"pageNum\":\"SP001\",\n\"pageNo\":\"Hello\"}-请求发送失败返回错误信息-{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+      "uid" : "c7cdcb3e19d9110",
+      "parentUid" : "63a3622dbe45ecf109dbe72d9be28c85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615275536635,
+        "stop" : 1615275536802,
+        "duration" : 167
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'CXCNSPBH_07'", "'查询池内商品编号'", "'页码错误'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'47'", "'{\"pageNum\":\"SP001\",\n\"pageNo\":\"Hello\"}'", "'请求发送失败返回错误信息'", "'POST'", "'{\"success\":false,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2007\"}'", "'/product/getSkuByPage'", "'Yes'" ]
+    } ],
+    "uid" : "test_case.Test_Case"
+  } ]
+}

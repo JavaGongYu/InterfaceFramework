@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert False == True",
+      "children" : [ {
+        "name" : "test_getProvince[1-YJDL_01-获取一级地址-发送正确请求-/area/getProvince-POST-{\"Content-Type\":\"application/x-www-form-urlencoded\"}--请求发送成功返回正确结果-{\"success\":true,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2008\"}-{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}--Yes]",
+        "uid" : "a5b1fbb66fd2f646",
+        "parentUid" : "c026868ff44bedf09f7ccc31efb4d74b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1615275530124,
+          "stop" : 1615275530260,
+          "duration" : 136
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"success\": false, \"resultMessage\": \"token不能为空\", \"resultCode\": \"2007\"}'", "''", "'YJDL_01'", "'获取一级地址'", "'发送正确请求'", "'{\"Content-Type\":\"application/x-www-form-urlencoded\"}'", "'1'", "''", "'请求发送成功返回正确结果'", "'POST'", "'{\"success\":true,\"resultMessage\":\"token不能为空\",\"resultCode\":\"2008\"}'", "'/area/getProvince'", "'Yes'" ]
+      } ],
+      "uid" : "c026868ff44bedf09f7ccc31efb4d74b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
